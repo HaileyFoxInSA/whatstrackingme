@@ -21,17 +21,17 @@ There are a couple ways to try out this web extension:
     - You should now see the Lightbeam icon on the top right bar of the browser.
     - Click the Lightbeam icon to launch the web extension.
 
-2. Install the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool, change into the `src` directory of this repository, and type `web-ext run`.
+2. Install the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool, change into the `src` directory of this repository, and type `web-ext run`
     - This will launch Firefox and install the extension automatically.
     - This tool gives you some additional development features such as [automatic reloading](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext#Automatic_extension_reloading).
 
 ## Development Guide
 
 ### Download dependencies
-Run `npm run build`.
+Run `npm run build`
 
 ### Update the submodule
-To manually update the submodule at any time during development, run `git submodule update`.
+To manually update the submodule at any time during development, run `git submodule update`
 
 ### Testing
 Run `npm run test` to check that everything is OK.
@@ -43,4 +43,6 @@ Run `npm run test` to check that everything is OK.
     * `npm run lint:eslint`
     * `npm run test:karma`
 
-Eslint is used for linting. Karma, Mocha & Chai are used for unit testing. Additionally the test suites are run on the Travis service providing continuous integration support.
+Eslint is used for linting. 
+Karma, Mocha & Chai are used for unit testing. 
+Additionally the test suites are run on the Travis service providing continuous integration support.
